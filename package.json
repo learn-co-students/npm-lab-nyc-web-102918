@@ -1,0 +1,27 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Connor-Callahan/npm-lab-nyc-web-102918.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Connor-Callahan/npm-lab-nyc-web-102918/issues"
+  },
+  "homepage": "https://github.com/Connor-Callahan/npm-lab-nyc-web-102918#readme",
+  "dependencies": {
+    "10": "0.0.1",
+    "learn-browser": "^0.1.17",
+    "moment": "^2.23.0"
+  }
+}
